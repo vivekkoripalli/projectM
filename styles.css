@@ -33,9 +33,9 @@ a img{
   color: #fff;
 }
 
-.android-search-box .mdl-textfield__input {
+/*.android-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
-}
+}*/
 
 .android-header .mdl-menu__container {
   z-index: 50;
@@ -103,10 +103,10 @@ a img{
     width: 800px;
   }
 
-  .android-search-box.is-focused + .android-navigation-container {
+ /* .android-search-box.is-focused + .android-navigation-container {
     opacity: 0;
     width: 100px;
-  }
+  }*/
 
 
   .android-navigation .mdl-navigation__link {
@@ -477,23 +477,21 @@ a img{
   /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
      consecutive "+" operators in some cases. Therefore, we need to use both
      here to cover all the bases. */
-  .android.android-search-box.is-focused ~ .android-mobile-title,
-  .android-search-box.is-focused + .android-navigation-container + .android-mobile-title {
-    opacity: 0;
-  }
+  /*
+  */
 
   .android-more-button {
     display: none;
   }
 
-  .android-search-box.is-focused {
+  /*.android-search-box.is-focused {
     width: calc(100% - 48px);
   }
 
   .android-search-box .mdl-textfield__expandable-holder {
     width: 100%;
   }
-
+*/
   .android-be-together-section {
     height: 350px;
   }

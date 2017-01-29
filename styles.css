@@ -167,14 +167,14 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('images/first.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -257,7 +257,7 @@ a img{
 }
 
   .android-tablet .android-screen-image {
-    width: 100%;
+    width: 70%;
     z-index: 1;
   }
 
@@ -274,7 +274,7 @@ a img{
 }
 
   .android-tv .android-screen-image {
-    width: 100%;
+    width: 15%;
     z-index: 1;
   }
 
@@ -287,14 +287,14 @@ a img{
 
   .android-auto .android-screen-image {
     display: block;
-    height: 300px;
+    height: 45%;
     z-index: 1;
   }
 
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
+  background: url('images/second.jpg') center top no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -362,10 +362,11 @@ a img{
 
   .android-customized-section-text p {
     padding-top: 16px;
+    font-size: 18px;
   }
 
 .android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
+  background: url('images/third.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }

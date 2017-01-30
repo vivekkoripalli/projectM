@@ -62,8 +62,8 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
-  width: 140px;
+  height: 58px;
+  width: 200px;
 }
 
 
@@ -206,7 +206,8 @@ a img{
 }
 .android-screen-section h2
 {
-  font-size: 18px;
+  font-size: 20px;
+  font-style: normal;
 }
 
 .android-screens {

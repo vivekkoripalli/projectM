@@ -204,6 +204,10 @@ a img{
   padding-top: 60px;
   padding-bottom: 80px;
 }
+.android-screen-section h2
+{
+  font-size: 18px;
+}
 
 .android-screens {
   text-align: right;
